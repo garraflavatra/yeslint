@@ -19,15 +19,15 @@ Please see [the `examples` directory](./examples) for some examples. Files that 
 Install it together with ESLint using [npm], [pnpm], [Yarn], or whatever package manager you like to use:
 
 ```bash
-npm install --save-dev eslint yeslint
+npm install --save-dev eslint @garraflavatra/yeslint
 ```
 
 ```bash
-yarn add --dev eslint yeslint
+yarn add --dev eslint @garraflavatra/yeslint
 ```
 
 ```bash
-pnpm add --save-dev eslint yeslint
+pnpm add --save-dev eslint @garraflavatra/yeslint
 ```
 
 Then, tell ESLint to extend this configuration. Add it either in `.eslintrc.json`, add it as the default export in `.eslintrc.js`, or add it in your `package.json` under the `"eslintConfig"` key.

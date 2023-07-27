@@ -1,5 +1,5 @@
 {
-  "name": "yeslint",
+  "name": "@garraflavatra/yeslint",
   "version": "1.0.0",
   "description": "Sensible configuration for your ESLint installation",
   "main": "index.js",
