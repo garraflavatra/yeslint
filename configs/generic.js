@@ -196,6 +196,7 @@ const generic = {
       'never',
     ],
     'no-nested-ternary': 'error',
+    'no-lonely-if': 'error',
   },
 };
 
