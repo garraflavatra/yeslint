@@ -1,0 +1,43 @@
+{
+  "name": "yeslint",
+  "version": "1.0.0",
+  "description": "Sensible configuration for your ESLint installation",
+  "main": "index.js",
+  "author": "Romein van Buren <romein@vburen.nl>",
+  "homepage": "https://github.com/garraflavatra/yeslint#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garraflavatra/yeslint.git"
+  },
+  "keywords": [
+    "lint",
+    "linting",
+    "linter",
+    "ESLint"
+  ],
+  "bugs": {
+    "url": "https://github.com/garraflavatra/yeslint/issues"
+  },
+  "files": [
+    "index.js",
+    "configs"
+  ],
+  "dependencies": {
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "peerDependencies": {
+    "eslint": "^7.9.0 || ^8.0.0",
+    "eslint-plugin-svelte": "^2.32.4"
+  },
+  "peerDependenciesMeta": {
+    "eslint-plugin-svelte": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-svelte": "^2.32.4",
+    "svelte": "^4.1.1"
+  }
+}
