@@ -1,6 +1,6 @@
 # yeslint!
 
-A sensible, modern collection of configuration files for [ESLint] that enforces beautiful code. It contains both rules to ensure correct code (e.g. enforce `break` statements in each `switch` `case`), and rules to make your code beautiful (e.g. adding a trailing comma to array items that start on a newline).
+A sensible, modern collection of configuration files for [ESLint] that enforces beautiful and correct code. It contains both rules to ensure correct code (e.g. enforce `break` statements in each `switch` `case`), and rules to make your code beautiful (e.g. adding a trailing comma to array items that start on a newline).
 
 ## What's included
 
