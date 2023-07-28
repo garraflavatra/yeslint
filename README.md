@@ -36,7 +36,7 @@ Please consider the following example. You should replace `<name>` with the name
 
 ```javascript
 module.exports = {
-  extends: './node_modules/@garraflavatra/yeslint/config/<name>.js',
+  extends: './node_modules/@garraflavatra/yeslint/configs/<name>.js',
 };
 ```
 
@@ -44,7 +44,7 @@ Or add this to your `package.json` file:
 
 ```json
 "eslintConfig": {
-  "extends": "./node_modules/@garraflavatra/yeslint/config/<name>.js"
+  "extends": "./node_modules/@garraflavatra/yeslint/configs/<name>.js"
 }
 ```
 
