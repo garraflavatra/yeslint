@@ -9,10 +9,11 @@ const svelteConfig = require('./configs/svelte.js');
  * @type {import('eslint').Linter.Config}
  */
 module.exports = {
+  root: true,
   extends: './configs/node.js',
   ignorePatterns: [ '/example/wrong.*' ],
   overrides: [ {
-    files: [ './example/correct.svelte' ],
+    files: [ './example/*.svelte' ],
     overrides: svelteConfig.overrides,
     parserOptions: svelteConfig.parserOptions,
     env: svelteConfig.env,

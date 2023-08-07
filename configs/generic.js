@@ -53,6 +53,7 @@ const generic = {
       'error',
       'always',
     ],
+    'array-element-newline': 'off',
     'arrow-body-style': [
       'error',
       'as-needed',
