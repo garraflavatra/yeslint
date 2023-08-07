@@ -193,7 +193,7 @@ const generic = {
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
     'template-curly-spacing': 'error',
-    curly: 2,
+    curly: 'error',
     'brace-style': [
       'error',
       'stroustrup',
