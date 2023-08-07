@@ -11,4 +11,10 @@ module.exports = {
       console.log(password);
     },
   ],
+
+  arrays: [
+    1,
+    2,
+    3,
+  ],
 };

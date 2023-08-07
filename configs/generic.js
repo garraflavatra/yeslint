@@ -1,5 +1,13 @@
 'use strict';
 
+let typescriptInstalled = false;
+
+try {
+  require('typescript');
+  typescriptInstalled = true;
+}
+catch { /* not installed */ }
+
 /**
  * Generic ESLint configuration for all modern JavaScript runtimes.
  *
@@ -20,9 +28,7 @@ const generic = {
   rules: {
     'no-undef': [
       'error',
-      {
-        typeof: true,
-      },
+      { typeof: true },
     ],
     'require-atomic-updates': 0,
     indent: [
@@ -46,11 +52,6 @@ const generic = {
     'array-bracket-spacing': [
       'error',
       'always',
-    ],
-    'array-element-newline': [ 'warn' ],
-    'array-bracket-newline': [
-      'warn',
-      { minItems: 2 },
     ],
     'arrow-body-style': [
       'error',
@@ -92,9 +93,7 @@ const generic = {
     'keyword-spacing': 'error',
     'key-spacing': [
       'warn',
-      {
-        beforeColon: false,
-      },
+      { beforeColon: false },
     ],
     'linebreak-style': [
       'error',
@@ -211,6 +210,12 @@ const generic = {
     'no-nested-ternary': 'error',
     'no-lonely-if': 'error',
   },
+  overrides: typescriptInstalled ? [ {
+    files: '**/*.ts',
+    parser: '@typescript-eslint/parser',
+    plugins: [ '@typescript-eslint' ],
+    extends: [ 'plugin:@typescript-eslint/recommended' ],
+  } ] : [],
 };
 
 module.exports = generic;

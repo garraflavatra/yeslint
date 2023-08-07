@@ -2,7 +2,12 @@
 
 const svelteConfig = require('./configs/svelte.js');
 
-/** @type {import('eslint').Linter.Config} */
+/**
+ * Don't import this! It is the configuration for the yeslint! code and is not
+ * meant to be used elsewhere. Please refer to the readme.
+ *
+ * @type {import('eslint').Linter.Config}
+ */
 module.exports = {
   extends: './configs/node.js',
   ignorePatterns: [ '/example/wrong.*' ],

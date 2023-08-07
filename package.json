@@ -27,11 +27,23 @@
     "eslint-plugin-import": "^2.27.5"
   },
   "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.2.0",
+    "@typescript-eslint/parser": "^6.2.1",
     "eslint": "^7.9.0 || ^8.0.0",
-    "eslint-plugin-svelte": "^2.32.4"
+    "eslint-plugin-svelte": "^2.32.4",
+    "typescript": "^5.0.0"
   },
   "peerDependenciesMeta": {
+    "@typescript-eslint/parser": {
+      "optional": true
+    },
+    "@typescript-eslint/eslint-plugin": {
+      "optional": true
+    },
     "eslint-plugin-svelte": {
+      "optional": true
+    },
+    "typescript": {
       "optional": true
     }
   },

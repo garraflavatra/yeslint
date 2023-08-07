@@ -5,5 +5,7 @@ module.exports = {
 
   object:{spacing:'required!'},
 
-  functions: [( env )=>  console.log(env.password),function  ({password}) { console.log( password  )}]
+  functions: [( env )=>  console.log(env.password),function  ({password}) { console.log( password  )}],
+
+  arrays: [1,2,3]
 }
