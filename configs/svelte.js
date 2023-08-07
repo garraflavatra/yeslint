@@ -36,6 +36,13 @@ const svelte = {
     parser: 'svelte-eslint-parser',
     rules: {
       'no-inner-declarations': 0,
+      'max-len': [
+        'warn',
+        {
+          ...generic.rules['max-len'][1],
+          code: 200,
+        },
+      ],
       'svelte/no-inner-declarations': [
         'error',
         'functions',
