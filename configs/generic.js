@@ -113,7 +113,10 @@ const generic = {
         ignoreRegExpLiterals: true,
       },
     ],
-    'no-unused-vars': 'warn',
+    'no-unused-vars': [
+      'warn',
+      { varsIgnorePattern: '\\_' },
+    ],
     'no-alert': 'error',
     'no-caller': 'error',
     'no-confusing-arrow': [
