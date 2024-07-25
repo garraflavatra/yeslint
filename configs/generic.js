@@ -123,10 +123,6 @@ const generic = {
     'no-console': 'off',
     'no-div-regex': 'error',
     'no-duplicate-imports': 'error',
-    'import/extensions': [
-      'warn',
-      'ignorePackages',
-    ],
     'no-extend-native': 'error',
     'no-extra-label': 'error',
     'no-fallthrough': 'off',
