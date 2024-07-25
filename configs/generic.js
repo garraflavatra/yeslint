@@ -115,7 +115,19 @@ const generic = {
     ],
     'no-unused-vars': [
       'warn',
-      { varsIgnorePattern: '\\_' },
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+        caughtErrorsIgnorePattern: '^_',
+      },
     ],
     'no-alert': 'error',
     'no-caller': 'error',
