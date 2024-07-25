@@ -12,14 +12,11 @@ const generic = require('./generic.js');
  * @type {import('eslint').Linter.Config}
  */
 const node = {
-  parserOptions: { ...generic.parserOptions },
+  ...generic,
   env: {
     ...generic.env,
     node: true,
   },
-  extends: [ ...generic.extends ],
-  plugins: [ ...generic.plugins ],
-  rules: { ...generic.rules },
 };
 
 module.exports = node;
