@@ -1,6 +1,6 @@
 # yeslint!
 
-A sensible, modern collection of configuration files for [ESLint] that enforces beautiful and correct code. It contains both rules to ensure correct code (e.g. enforce `break` statements in each `switch` `case`), and rules to make your code beautiful (e.g. adding a trailing comma to array items that start on a newline).
+A sensible, modern collection of configuration files for [ESLint] 8.x that enforces beautiful and correct code. It contains both rules to ensure correct code (e.g. enforce `break` statements in each `switch` `case`), and rules to make your code beautiful (e.g. adding a trailing comma to array items that start on a newline).
 
 ## What's included
 
@@ -19,15 +19,15 @@ Please see [the `examples` directory](./examples) for some examples. Files that 
 Install it together with ESLint using [npm], [pnpm], [Yarn], or whatever package manager you like to use:
 
 ```bash
-npm install --save-dev eslint @garraflavatra/yeslint
+npm install --save-dev eslint@^8.57 @garraflavatra/yeslint
 ```
 
 ```bash
-yarn add --dev eslint @garraflavatra/yeslint
+pnpm add --save-dev eslint@^8.57 @garraflavatra/yeslint
 ```
 
 ```bash
-pnpm add --save-dev eslint @garraflavatra/yeslint
+bun add --save-dev eslint@^8.57 @garraflavatra/yeslint
 ```
 
 Then, tell ESLint to extend this configuration. Add it either in `.eslintrc.json`, add it as the default export in `.eslintrc.js`, or add it in your `package.json` under the `"eslintConfig"` key.
@@ -52,7 +52,7 @@ After installing, run `npx eslint .` to lint your code for the first time, or us
 
 ## Author & license
 
-© [Romein van Buren](mailto:romein@vburen.nl) 2023. yeslint! is released under the MIT license — see LICENSE for the full license text.
+© [Romein van Buren](mailto:romein@vburen.nl) 2023-2024. yeslint! is released under the MIT license — see LICENSE for the full license text.
 
 [ESLint]: https://eslint.org/
 [Svelte]: https://svelte.dev/
