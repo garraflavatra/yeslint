@@ -62,6 +62,8 @@ Please feel free to [report](https://github.com/garraflavatra/yeslint/issues/new
 
 © [Romein van Buren](mailto:romein@vburen.nl) 2023-2024. yeslint! is released under the MIT license — see LICENSE for the full license text.
 
+[![Smart Yellow](https://code.smartyellow.net/smartyellow/meta/raw/branch/main/logo.png)](https://www.smartyellow.nl)
+
 [ESLint]: https://eslint.org/
 [Svelte]: https://svelte.dev/
 [npm]: https://www.npmjs.com/
