@@ -18,7 +18,7 @@ Please see [the `example` directory](./example) for some examples. Files that st
 
 ## Installation
 
-Install it together with ESLint using [npm], [pnpm], [Yarn], or whatever package manager you like to use:
+Install it together with ESLint using [npm], [pnpm], [Bun], or whatever package manager you like to use:
 
 ```bash
 npm install --save-dev eslint@^8.57 @garraflavatra/yeslint
