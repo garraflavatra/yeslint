@@ -1,6 +1,6 @@
 {
   "name": "@garraflavatra/yeslint",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Sensible configuration for your ESLint installation",
   "main": "index.js",
   "author": "Romein van Buren <romein@vburen.nl>",
