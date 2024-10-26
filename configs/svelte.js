@@ -99,10 +99,7 @@ const svelte = {
         'svelte/shorthand-directive': 'warn',
         'svelte/spaced-html-comment': 'warn',
         'svelte/no-at-html-tags': 0,
-        'svelte/html-self-closing': [
-          'warn',
-          'all',
-        ],
+        'prefer-const': 0,
       },
     },
   ],
