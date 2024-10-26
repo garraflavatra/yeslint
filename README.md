@@ -10,7 +10,7 @@ Currently, the 3 following configuration files are available:
 
 * `generic`: generic ESLint configuration for all modern JavaScript runtimes.
 * `node`: an extension on the generic config, with rules specific to Node.js. Also works with [Bun]!
-* `svelte`: configuration for [Svelte] and JavaScript in browser environments.
+* `svelte`: configuration for [Svelte] (v4 & v5) and JavaScript in browser environments.
 
 ## Examples
 
